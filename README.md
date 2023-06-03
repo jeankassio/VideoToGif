@@ -1,6 +1,11 @@
 # VideoToGif
 A simple video to gif converter that uses FFMPEG and simplifies the whole process for you. The entire process is done in base64, from input to output
 
+
+[![Total Downloads](https://poser.pugx.org/jeankassio/VideoToGif/downloads)](https://packagist.org/packages/jeankassio/VideoToGif)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+
 You must have [FFMpeg](https://ffmpeg.org/) installed in your PATH on your system. If not, follow this [tutorial](https://phoenixnap.com/kb/install-ffmpeg-ubuntu).
 
 ## Installation
