@@ -1,0 +1,21 @@
+{
+  "name": "jeankassio/videotogif",
+  "description": "A simple video to gif converter that uses FFMPEG and simplifies the whole process for you.",
+  "keywords": ["scraping", "scraper", "chromedriver", "webdriver", "metadata", "symfony"],
+  "homepage": "https://jeankassio.dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jean Kássio",
+      "email": "contato@jeankassio.dev",
+      "homepage": "https://jeankassio.dev"
+    }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "php-ffmpeg/php-ffmpeg": "^1.0.1"
+  },
+  "autoload": {
+    "psr-4": { "JeanKassio\\VideoToGif\\": "src/" }
+  }
+}
