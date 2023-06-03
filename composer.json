@@ -16,6 +16,6 @@
     "php-ffmpeg/php-ffmpeg": "^1.0.1"
   },
   "autoload": {
-    "psr-4": { "JeanKassio\\VideoToGif\\": "src/" }
+    "psr-4": { "JeanKassio\\": "src/" }
   }
 }
