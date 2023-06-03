@@ -3,6 +3,14 @@ A simple video to gif converter that uses FFMPEG and simplifies the whole proces
 
 You must have [FFMpeg](https://ffmpeg.org/) installed in your PATH on your system. If not, follow this [tutorial](https://phoenixnap.com/kb/install-ffmpeg-ubuntu).
 
+## Installation
+
+The recommended way to install is using [Composer](https://getcomposer.org).
+
+```bash
+$ composer require jeankassio/videotogif
+```
+
 ## How to use?
 
 ```php
