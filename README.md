@@ -1,2 +1,32 @@
 # VideoToGif
-A simple video to gif converter that uses FFMPEG and simplifies the whole process for you.
+A simple video to gif converter that uses FFMPEG and simplifies the whole process for you. The entire process is done in base64, from input to output
+
+You must have [FFMpeg](https://ffmpeg.org/) installed in your PATH on your system. If not, follow this [tutorial](https://phoenixnap.com/kb/install-ffmpeg-ubuntu).
+
+## How to use?
+
+```php
+use JeanKassio\VideoToGif;
+  
+  $converter = new VideoToGif();
+  
+  $b64 = "data:video/mp4;base64,AAAAGGZ0eXBtcDQyAAAAAGlzb2...";
+  
+  $result = $converter->convert($b64);
+
+  var_dump($result);
+```
+
+
+### And the result will look like:
+
+```php
+
+array(4) { 
+  ["gif"]=> string(304970) "data:image/gif;base64,R0lGODlhkAGWAfcAAD4AND4UPUMHN1YBNEkUO1UYPGUWO1cl..." (Hidden to save on reading)
+  ["fps"]=> int(29) 
+  ["width"]=> int(400) 
+  ["height"]=> int(406) 
+}
+
+```
